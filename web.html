@@ -1,0 +1,197 @@
+<html style="background-color:rgba(145, 22, 22, 0.89);">
+    <head>
+        <title>JONISH SOLANKI</title>
+        <style>
+          .dropbtn {
+          position: relative;
+          
+            color: rgb(240, 4, 4);
+            padding: 25px;
+            font-size: 25px;
+            border: none;
+            cursor: pointer;
+          }
+        
+          
+          .dropbtn:hover, .dropbtn:focus {
+            background-color: #e65531;
+          }
+          
+          #myInput {
+            border-box: box-sizing;
+            background-image: url('');
+            background-position: 14px 12px;
+            background-repeat: no-repeat;
+            font-size: 16px;
+            padding: 14px 20px 12px 45px;
+            border: none;
+            border-bottom: 1px solid #ddd;
+          }
+          
+          #myInput:focus {outline: 3px solid #ddd;}
+          
+          .dropdown {
+              padding-top:45px;
+            padding-left: 45px; 
+            position: relative;
+            display: inline-block;
+          }
+          
+          .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f6f6f6;
+            min-width: 230px;
+            overflow: auto;
+            border: 1px solid #ddd;
+            z-index: 1;
+          }
+          
+          .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+          }
+          .jo
+          {
+           font-size:70px;font-weight:bolder;text-align:center;padding-left:550px;align-content: center;
+          }
+          @media (max-width:1000px)
+          {
+            .jo
+            {
+              font-size:30px;
+              font-weight:bolder;text-align:center;padding-left:50px;align-content: center;
+     
+            }
+          }
+          <meta name ="viewport" content="width=device-width, initial-scale=1">
+          
+          
+          .dropdown a:hover {background-color: #ddd;}
+          
+          .show {display: block;}
+
+         @media (max-width:800px){
+           .dropdown{
+             font-size:10px;
+             font-weight:bold;
+             padding-top:45px;
+            padding-left: 45px; 
+            position: relative;
+            display: inline-block;
+           }
+          .dropbtn{
+                    height:10px;
+                    width:30px;
+                    font-size:7px;
+                    text-align: center;           }
+           
+         }
+
+          </style>
+    </head>
+    <body>
+        
+     <header class="navbar" style=" position: relative ;
+     background-image: url(https://images.pexels.com/photos/462118/pexels-photo-462118.jpeg?cs=srgb&dl=bloom-blooming-blossom-462118.jpg&fm=jpg);
+     height: 200px;">
+
+     
+ 
+     <div class="dropdown">
+      <button onclick="myFunction()" class="dropbtn">MENU</button> 
+       <div id="myDropdown" class="dropdown-content">
+         <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
+         <a href="#show_aboutme">About</a>
+         <a href="#project_1">Project1</a>
+         <a href="#contact_1">Contact</a>
+         <a href="">Support</a>
+    
+       </div>
+     </div>
+     
+     <script>
+     /* When the user clicks on the button,
+     toggle between hiding and showing the dropdown content */
+     function myFunction() {
+       document.getElementById("myDropdown").classList.toggle("show");
+     }
+     
+     function filterFunction() {
+       var input, filter, ul, li, a, i;
+       input = document.getElementById("myInput");
+       filter = input.value.toUpperCase();
+       div = document.getElementById("myDropdown");
+       a = div.getElementsByTagName("a");
+       for (i = 0; i < a.length; i++) {
+         txtValue = a[i].textContent || a[i].innerText;
+         if (txtValue.toUpperCase().indexOf(filter) > -1) {
+           a[i].style.display = "";
+         } else {
+           a[i].style.display = "none";
+         }
+       }
+     }
+     </script>
+     <j class="jo">Jonish Solanki</j>
+  
+        </header>
+     
+    <a class="aboutme" style=" font-weight: bold; " id="show_aboutme">
+<center style="font-size:45px;background-color: antiquewhite; padding-bottom:45px; padding-top: 40px;">
+    <span  style="position:relative; border:dotted 10px rgb(56, 56, 221) ;padding:30px;padding-top:10px;padding-bottom: 10px ;"   >About Me</span></center>
+    
+    <p style="font-family:cursive;font-weight: bold;font-style: italic;font-size:25px;color: bisque;
+    background-image: url(https://images.pexels.com/photos/960137/pexels-photo-960137.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260)">
+        Helloo...........................!<br>
+        I am jonish solanki. I like to be happy always.<br> So you can enjoy if we are working together in same project. <br>I'm some crestive n'd too cooperstive boy.<br>
+        So give me your ideas to make something together.<br> I will alway help you whatever time is there but if i am free then any time i will be wd you.<br>
+        Thanks to visit my web site....................................!<br>
+        I'm very crazy to work wd you...........!</li>
+    </p>  </a>
+<a class="Project1" style="position:relative;font-weight: bold"  id="project_1">
+            <center style="font-size:45px;background-color: antiquewhite; padding-bottom:45px; padding-top: 40px;">
+                        <span  style="position:relative; border:dotted 10px rgb(56, 56, 221) ;padding:30px;padding-top:10px;padding-bottom: 10px">Project1</span></center>
+                    
+               
+                <p class="project1" style="font-family:cursive;font-weight: bold;font-style: italic;font-size:25px;color: bisque;
+                background-image:url(https://images.pexels.com/photos/333850/pexels-photo-333850.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) ">
+                    We need vto make android app which will helpful yo our society.<br> The first app is for them who are very serious to their health.<br>
+                    So idea behind that is the app have a ability to calculate BMI values.<br>
+                    There should be three catogory of BMI index.<br>
+                    High BMI value<br>
+                    Low BMI value<br>
+                    Normal BMI value<br>
+                 As per BMI values, the app will be evolute that how much calories they need to burn or how much calories they need to gain for stay <strong>Healthy</strong>
+                 It will also suggest the exercises they are need.<br>
+                 Which types of food they need to maintain their health.
+            </p>
+             </a>
+
+             <a class="Contact" style=" font-weight: bold; " id="contact_1">
+              <center style="font-size:45px;background-color: antiquewhite; padding-bottom:45px; padding-top: 40px;">
+                  <span  style="position:relative; border:dotted 10px rgb(56, 56, 221) ;padding:30px;padding-top:10px;padding-bottom: 10px ;">Contact</span></center>
+                  
+                  <p style="font-family:cursive;font-weight: bold;font-style: italic;font-size:25px; color: bisque;padding-block-end: 50px;
+                   background-image: url(https://images.pexels.com/photos/1416530/pexels-photo-1416530.jpeg?cs=srgb&dl=antique-black-call-1416530.jpg&fm=jpg);">
+
+                <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCHrlFNhxwwCTFWbbFZsDxSVXHcvFnhFXFJjXvgRNKscHSkZbFJhjqKlwZQJJrKKMZRdtzNV"
+                 style="color:#e65531;position:relative;">jimmysolanki199@gmail.com</a><br>
+
+                 <a href="https://www.iitp.ac.in/hostel/"  style="color:#e65531;position: relative;" >IIT PAtna Boys Hostel.</a><br>
+
+                 <a href="https://www.iitp.ac.in/"   style="color:#e65531;position: relative;">Indian Institute Of technology,patna.</a><br>
+
+                 <a href="https://www.google.com/maps/place/Bihta,+Bihar/@25.5643147,84.8505662,14z/data=!3m1!4b1!4m5!3m4!1s0x398d55f11dd9f813:0x6d3ae9bae8e85ece!8m2!3d25.5584044!4d84.8678449" 
+                   style="color:#e65531;position: relative;">Bihta,Patna.</a><br>
+
+                 <a href=""   style="color:#e65531;position: relative;">801103.</a><br>
+
+                <a href="tel:9723474965"  style="color:#e65531;padding-block-end: 45px;position: relative;"><img src="C:\Users\jimmy\Downloads\Call-me-Lovely-Pic.png" /> Call -9723474965</a>
+                  </p>  </a>
+              
+    </body>
+    <style></style>
+</html>
